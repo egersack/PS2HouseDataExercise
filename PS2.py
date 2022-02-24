@@ -52,6 +52,7 @@ list_predict_rounded = np.around(list_predicted_prices, decimals=2)
 # add predicted price to test table
 test_data['SalePrice'] = list_predict_rounded
 
+#how do i get my final data? i need it in a csv
 finalOutput = test_data[['Id', 'SalePrice']]
 #print predicted price and Id for user
 print(finalOutput.to_string(index=False))
