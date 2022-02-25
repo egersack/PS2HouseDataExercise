@@ -57,3 +57,5 @@ print(finalOutput.to_string(index=False))
 
 #export final output to a .csv
 finalOutput.to_csv (r'predictions.csv', index=False, header=True)
+
+#i do not know how to get a separate file out of this. I am not really sure what the last few lines of code do because when i put it on google colab, it returned something but here it does nothing. On my vs code othing is returned either.
